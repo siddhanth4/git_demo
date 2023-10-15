@@ -1,0 +1,115 @@
+#linear{
+    background: url("images/LinearCode.png");
+    width: 480px;
+    height: 580px;
+    border: 10px solid black;
+    display: inline-block;
+    transition:1s;
+    margin-left: 2px;
+    margin-right: 10px;
+}
+#linear:hover{
+    background: url("images/LinearS.png");
+    transition:background-image 1s, background-size 1s, padding 1s;
+    background-size: 500px 600px; 
+    padding: 10px;
+    display:inline-block; 
+    border-radius: 30px;
+    border-color: red;  
+}
+#bubble{
+    background: url("images/bubbleC.png");
+    height: 750px;
+    width: 650px;
+    display: inline-block;
+    margin-left:2px;
+    transition:1s;
+    border: 10px solid black;
+    transform: scale(0.8);
+}
+#bubble:hover{
+   background: url("images/bubbleOutput.png");
+   transition:background-image 1s, background-size 1s, padding 1s;
+   background-size: 680px 750px; 
+   padding:10px;
+   border-radius: 30px;
+   border-color: red;
+   display:inline-block;
+   transform: scale(0.8); 
+   
+}
+#array{
+    background: url("images/arrayC.png");
+    height: 760px;
+    width: 340px;
+    border: 10px solid black;
+    margin-right:20px;
+    margin-left: 20px; 
+    display: inline-block;
+    transition:0.3s;
+    transition-timing-function:steps(10);
+    transform: scale(1.1, 1);
+}
+#array:hover{
+    background: url("images/arrayOutput.png");
+    transition:background-image 1s, background-size 1s, padding 1s;
+    background-size: 400px 400px; 
+    padding:10px;
+    border-radius: 30px;
+    border-color: red;
+    transform: scale(0.9,0.8);
+    display:inline-block; 
+}
+
+#outersize{
+    overflow-inline:auto ;
+    background: url("images/divwall.jpg");
+    height:max-content;
+    width:max-content;
+    padding: 20px;
+    margin: 100px;
+    border-radius: 20px;
+    background-size: cover;
+    display:inline-flexbox;
+    transition: 0.5s;
+}
+#outersize:hover{
+    box-shadow: 3px 3px 50px white;
+    transition: 0.3s;
+}
+
+#title{
+    margin: 30px 50px 50px 800px;
+    width: 150px;
+    height: 150px;
+    padding: 40px  ;
+    background-color:blueviolet;
+    border: 2px dashed blueviolet;
+    transition: 0.75s;
+}
+#title:hover{
+    transform: translateY(150px);
+    border-radius: 50%;
+    transition: 0.75s;
+
+}
+body{
+    background: url("images/wall.jpg");
+    image-resolution: 1080px;
+}
+
+#code{
+    width: 30%;
+    border: 2px dashed red;
+    background-color: chartreuse;
+    margin: 0 auto;
+    transition: 1s;
+}
+#code:hover{
+    background-color:rgba(199, 88, 48, 0.792);
+    border-radius: 40px;
+    transition:margin-top, 20 ease-in-out 1s padding 2s;
+    transform: translate(100px);
+    box-shadow: 5px 5px 50px yellow;
+    transition: 1s;
+}
